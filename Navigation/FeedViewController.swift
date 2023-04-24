@@ -14,7 +14,7 @@ final class FeedViewController: UIViewController {
         
         createSubView()
     }
-    
+     
     private func createSubView() {
         let stackView = UIStackView()
         stackView.translatesAutoresizingMaskIntoConstraints = false

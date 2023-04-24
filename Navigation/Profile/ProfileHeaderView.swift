@@ -146,7 +146,7 @@ final class ProfileHeaderView: UITableViewHeaderFooterView {
             make.right.equalTo(safeAreaInsets).inset(16)
         }
     }
-    
+
     // MARK: - Event handlers
     
     @objc private func statusTextChanged(_ textField: UITextField) {

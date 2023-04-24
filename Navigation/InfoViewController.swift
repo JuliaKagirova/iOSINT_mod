@@ -14,7 +14,7 @@ final class InfoViewController: UIViewController {
         
         createAlertButton()
     }
-    
+
     private func createAlertButton() {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false

@@ -23,7 +23,7 @@ class PhotosCollectionViewCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("lol")
     }
-    
+
     private func setupConstraints() {
         self.contentView.addSubview(photo)
         

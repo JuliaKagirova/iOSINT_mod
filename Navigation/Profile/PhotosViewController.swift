@@ -27,7 +27,7 @@ class PhotosViewController: UIViewController {
         photos.register(PhotosCollectionViewCell.self, forCellWithReuseIdentifier: photoIdent)
         return photos
     }()
-    
+     
     // MARK: - Setup section
     
     override func viewDidLoad() {

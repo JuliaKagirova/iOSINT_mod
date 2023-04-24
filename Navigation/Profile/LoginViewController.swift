@@ -8,7 +8,7 @@ import UIKit
 final class LoginViewController: UIViewController {
     
     // MARK: Visual content
-    
+
     var loginScrollView: UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false

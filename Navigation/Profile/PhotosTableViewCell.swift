@@ -17,7 +17,7 @@ class PhotosTableViewCell: UITableViewCell {
         label.textColor = .black
         return label
     }()
-
+ 
     var arrowImage: UIImageView = {
         let arrow = UIImageView()
         arrow.translatesAutoresizingMaskIntoConstraints = false
