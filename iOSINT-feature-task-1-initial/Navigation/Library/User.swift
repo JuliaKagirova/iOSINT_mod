@@ -22,6 +22,7 @@ public class User {
 }
 
 protocol UserService {
+    
   static func identification(login: String) -> User?
 }
 
