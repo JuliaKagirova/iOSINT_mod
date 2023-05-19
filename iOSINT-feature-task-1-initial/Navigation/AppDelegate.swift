@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         feedNC.tabBarItem = UITabBarItem(title: "Feed",
                                          image: UIImage(systemName: "text.bubble"),
                                          selectedImage: UIImage(systemName: "text.bubble.fill"))
-
+ 
         let tabBarController = UITabBarController()
         tabBarController.tabBar.backgroundColor = .white
         tabBarController.viewControllers = [profileNC, feedNC]

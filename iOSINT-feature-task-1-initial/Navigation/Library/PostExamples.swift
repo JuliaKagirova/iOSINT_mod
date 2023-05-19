@@ -9,7 +9,7 @@ import StorageService
          description: "Zelda Metal Band Master Sword is Kickstarting a New Album, and We’ve Got the Inside Scoop",
          image: "post1",
          likes: 12,
-         views: 120),
+         views: 120), 
     Post(author: "George Cortez",
          description: "Daily Debate: Will We Ever Receive Another Sequel to Four Swords?",
          image: "post2",

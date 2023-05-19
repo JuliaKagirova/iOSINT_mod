@@ -29,7 +29,7 @@ class PhotosCollectionViewCell: UICollectionViewCell {
             photo.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
         ])
     }
-    
+     
     // MARK: - Run loop
     
     public func configCellCollection(photo: UIImage) {

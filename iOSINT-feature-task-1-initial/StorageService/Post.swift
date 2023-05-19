@@ -21,4 +21,4 @@ public struct Post {
         self.views = views
     }
 }
-
+ 

@@ -78,7 +78,7 @@ class PhotosTableViewCell: UITableViewCell {
             arrowImage.centerYAnchor.constraint(equalTo: labelPhotos.centerYAnchor),
             arrowImage.heightAnchor.constraint(equalToConstant: 40),
             arrowImage.widthAnchor.constraint(equalToConstant: 40),
-
+ 
             stackViewImage.topAnchor.constraint(equalTo: labelPhotos.bottomAnchor, constant: LayoutConstants.indentTwelve),
             stackViewImage.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: LayoutConstants.indentTwelve),
             stackViewImage.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -LayoutConstants.indentTwelve),

@@ -41,7 +41,7 @@ final class InfoViewController: UIViewController {
             print("Fine")
         }
         alert.addAction(fine)
-        
+         
         let so = UIAlertAction(title: "So-so", style: .destructive) { _ in
             print("So-so")
         }
