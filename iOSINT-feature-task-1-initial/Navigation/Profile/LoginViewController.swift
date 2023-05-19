@@ -165,8 +165,8 @@ final class LoginViewController: UIViewController {
                 print("Access is denied")
             }
         }
-        identification(login: "testDebug")
-//        identification(login: "testRelease")
+//        identification(login: "testDebug")
+        identification(login: "testRelease")
 
     }
     

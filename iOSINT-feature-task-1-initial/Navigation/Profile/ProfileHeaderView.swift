@@ -20,7 +20,7 @@ final class ProfileHeaderView: UITableViewHeaderFooterView {
     private var statusText = "Ready to help"
     private var avatarOriginPoint = CGPoint()
     
-    // MARK: - Setup section
+    // MARK: - Setup section 
     
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)

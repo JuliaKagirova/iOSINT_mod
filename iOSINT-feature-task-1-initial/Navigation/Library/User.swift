@@ -32,7 +32,7 @@ class CurrentUserService: UserService {
         return userdebug
     }
 }
-
+ 
 class TestUserService: UserService {
     static func identification(login: String) -> User? {
         let userRelease = User(login: "testRelease", fullName: "Chloe", status: "I am ok", avatar: UIImage(named: "2")!)

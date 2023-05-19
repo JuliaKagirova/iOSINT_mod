@@ -18,7 +18,7 @@ import StorageService
         // add a button in the navigtion bar
         let barButton = UIBarButtonItem(title: "Info", style: .done, target: self, action: #selector(tapInfoButton))
         navigationItem.rightBarButtonItem = barButton
-    }
+    } 
     
     @objc func tapInfoButton() {
         let infoVC = InfoViewController()

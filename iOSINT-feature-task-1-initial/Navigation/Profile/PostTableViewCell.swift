@@ -17,7 +17,7 @@ import StorageService
         label.textColor = .black
         label.numberOfLines = 2
         return label
-    }()
+    }() 
 
     var postImage: UIImageView = {
         let image = UIImageView().mask()
