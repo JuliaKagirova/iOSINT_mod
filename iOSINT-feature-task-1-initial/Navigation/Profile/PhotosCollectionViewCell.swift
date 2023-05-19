@@ -28,12 +28,13 @@ class PhotosCollectionViewCell: UICollectionViewCell {
             photo.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
             photo.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
         ])
+
     }
-     
+    } 
+
     // MARK: - Run loop
     
     public func configCellCollection(photo: UIImage) {
         self.photo.image = photo
     }
-}
 

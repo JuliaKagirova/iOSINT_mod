@@ -86,7 +86,7 @@ final class LoginViewController: UIViewController {
         setupViews()
         
 #if DEBUG
-    CurrentUserService.identification(login: "testDebug")
+    CurrentUserService.identification(login: "testDebug") 
 #else
     TestUserService.identification(login: "testRelease")
 #endif
